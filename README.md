@@ -1,4 +1,4 @@
-# Siska
+# Siska Discord Bot
 
 This project has the goal of giving a server a unique fact of the day, news article, joke, etc at a certain time. It also includes basic commands for users like returning the date and time, rolling a dice, and other functions. While this specific bot is not meant to do complex calls and responses, it can return useful functions depending on the server's users.
 
