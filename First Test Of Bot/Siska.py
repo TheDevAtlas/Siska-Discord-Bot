@@ -6,11 +6,11 @@ import random
 client = discord.Client()
 
 load_dotenv()
-TOKEN = 'ODcwNjUxMDQyMzE5MTcxNjI0.YQP2-A.KaOkK-2CSEG5d2G2ntkkAQvxu5c'
+TOKEN = 'DISCORD TOKEN'
 
-#########################3
 @client.event
 async def on_message(message):
+    
     #if message.author == client.user:
     #    return
 
@@ -22,6 +22,5 @@ async def on_message(message):
         
     response = message.content
     await message.channel.send(response)
-############
 
 client.run(TOKEN)
